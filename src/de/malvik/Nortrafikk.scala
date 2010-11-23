@@ -6,7 +6,8 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 
 class Nortrafikk extends Activity {
-    override def onCreate(savedInstanceState:Bundle) : Unit = {
+    
+	override def onCreate(savedInstanceState:Bundle) : Unit = {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main)
         
